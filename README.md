@@ -1,4 +1,5 @@
 [![Npm Package](https://img.shields.io/npm/v/whistle.service-worker.svg)](https://www.npmjs.com/package/whistle.service-worker)
+[![Npm Downloads](https://img.shields.io/npm/dm/whistle.service-worker.svg)](https://www.npmjs.com/package/whistle.service-worker)
 [![node](https://img.shields.io/node/v/whistle.service-worker.svg)](https://github.com/elvinn/whistle.service-worker)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
