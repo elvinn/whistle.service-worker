@@ -1,0 +1,2 @@
+whistle.service-worker/workbox-sw.dev.js file://public/workbox-sw.dev.js
+/whistle\.service-worker\/sw-register.js/ file://public/sw-register.js

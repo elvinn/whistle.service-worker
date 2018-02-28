@@ -1,0 +1,40 @@
+{
+  "name": "whistle.service-worker",
+  "version": "0.1.0",
+  "description": "test the effect of service worker for sites which want to use",
+  "scripts": {
+    "lint": "standard --verbose | snazzy",
+    "lint:fix": "standard --fix | snazzy",
+    "precommit": "npm run lint"
+  },
+  "keywords": [
+    "whistle",
+    "whistle plugin",
+    "service worker"
+  ],
+  "author": "elvinpeng <elvin.pjw@gmail.com>",
+  "homepage": "https://github.com/elvinn/whistle.service-worker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elvinn/whistle.service-worker.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 7.6"
+  },
+  "standard": {
+    "ignore": [
+      "public/workbox-sw.dev.js"
+    ]
+  },
+  "dependencies": {
+    "koa": "^2.5.0",
+    "query-string": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "husky": "^0.14.3",
+    "snazzy": "^7.0.0",
+    "standard": "^11.0.0"
+  }
+}
