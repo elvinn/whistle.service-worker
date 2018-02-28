@@ -18,7 +18,7 @@ Set proxy to `127.0.0.1:8899`. [Whistle Doc - Proxy Setting](https://github.com/
 
 ## Example
 
-Suppose to test the effect of service worker for help.github.com:
+Suppose to test the effect of service worker for [Github Help](help.github.com):
 
 1. Start whistle:
 
@@ -33,6 +33,7 @@ $ w2 run
 ```shelll
 /help.github.com/ whistle.service-worker://route=/.*/&strategy=cacheFirst
 ```
+![rule](htdoc/image/rule.png)
 
 4. Open [Github](https://help.github.com/) in new tab and check whether service worker is registered in devtools.
 

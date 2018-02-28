@@ -1,6 +1,6 @@
 {
   "name": "whistle.service-worker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "test the effect of service worker for sites which want to use",
   "scripts": {
     "lint": "standard --verbose | snazzy",

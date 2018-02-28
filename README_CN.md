@@ -18,7 +18,7 @@ $ npm install --global whistle whistle.service-worker
 
 ## Example
 
-假设我们像测试 help.github.com 使用 service worker 后的效果:
+假设我们想测试 [Github Help](help.github.com) 使用 service worker 后的效果:
 
 1. 启动 whistle:
 
@@ -34,6 +34,8 @@ $ w2 run
 /help.github.com/ whistle.service-worker://route=/.*/&strategy=cacheFirst
 ```
 
+![rule](htdoc/image/rule.png)
+
 4. 在浏览器中打开 [Github Help](https://help.github.com/) 并在开发者工具中检查 service worker 是否注册成功。
 
 ![registered](htdoc/image/registered.png)
@@ -41,7 +43,6 @@ $ w2 run
 5. 刷新 [Github Help](https://help.github.com/) 后即可观察启用 service worker 的效果。
 
 ![fetch](htdoc/image/fetch.png)
-
 
 
 ## Doc
