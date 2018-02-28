@@ -35,11 +35,11 @@ $ w2 run
 
 4. 在浏览器中打开 [Github Help](https://help.github.com/) 并在开发者工具中检查 service worker 是否注册成功。
 
-![registered](htdoc\image\registered.png)
+![registered](htdoc/image/registered.png)
 
 5. 刷新 [Github Help](https://help.github.com/) 后即可观察启用 service worker 的效果。
 
-![fetch](htdoc\image\fetch.png)
+![fetch](htdoc/image/fetch.png)
 
 
 

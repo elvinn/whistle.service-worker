@@ -35,11 +35,11 @@ $ w2 run
 
 4. Open [Github](https://help.github.com/) in new tab and check whether service worker is registered in devtools.
 
-![registered](htdoc\image\registered.png)
+![registered](htdoc/image/registered.png)
 
 5. Refresh [Github](https://help.github.com/) and check network pannel in devtools.
 
-![fetch](htdoc\image\fetch.png)
+![fetch](htdoc/image/fetch.png)
 
 
 
