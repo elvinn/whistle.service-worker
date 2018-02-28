@@ -2,7 +2,7 @@
 [![node](https://img.shields.io/node/v/whistle.service-worker.svg)](https://github.com/elvinn/whistle.service-worker)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-# whistle.service-worker ([中文文档](https://github.com/elvinn/whistle.service-worker/blob/master/README_ZH.md))
+# whistle.service-worker ([中文文档](https://github.com/elvinn/whistle.service-worker/blob/master/README_CN.md))
 
 As a plugin of [whistle](https://github.com/avwo/whistle), whistle.service-worker tests the effect of service worker for sites which want to use.
 
