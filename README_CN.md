@@ -31,7 +31,7 @@ $ w2 run
 3. 在 whistle 中添加如下规则:
 
 ```shelll
-/help.github.com/ whistle.service-worker://route=/.*/&strategy=cacheFirst
+help.github.com whistle.service-worker://route=/.*/&strategy=cacheFirst
 ```
 
 ![rule](htdoc/image/rule.png)

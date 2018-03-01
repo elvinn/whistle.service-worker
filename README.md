@@ -31,15 +31,15 @@ $ w2 run
 3. Add following rule to whistle:
 
 ```shelll
-/help.github.com/ whistle.service-worker://route=/.*/&strategy=cacheFirst
+help.github.com whistle.service-worker://route=/.*/&strategy=cacheFirst
 ```
 ![rule](htdoc/image/rule.png)
 
-4. Open [Github](https://help.github.com/) in new tab and check whether service worker is registered in devtools.
+4. Open [Github Help](https://help.github.com/) in new tab and check whether service worker is registered in devtools.
 
 ![registered](htdoc/image/registered.png)
 
-5. Refresh [Github](https://help.github.com/) and check network pannel in devtools.
+5. Refresh [Github Help](https://help.github.com/) and check network pannel in devtools.
 
 ![fetch](htdoc/image/fetch.png)
 
@@ -49,7 +49,7 @@ $ w2 run
 
 The key point for users is to set whistle rules like `/help.github.com/ whistle.service-worker://route=/.*/&strategy=cacheFirst` :
 
-- `/help.github.com/` means the hostname of the site to test.
+- `help.github.com` means the hostname of the site to test.
 - `route=/.*/` means to interception request which's url matches RegExp `/.*/` by service worker.
 - `strategy=cacheFirst` is to set a caching strategy. The built-in strategies are:
   - cacheFirst
