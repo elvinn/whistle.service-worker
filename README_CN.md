@@ -23,7 +23,7 @@ $ npm install --global whistle whistle.service-worker
 1. 启动 whistle:
 
 ```shell
-$ w2 run
+$ w2 start
 ```
 
 2. 在浏览器中打开 http://local.whistlejs.com/#rules.

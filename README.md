@@ -23,7 +23,7 @@ Suppose to test the effect of service worker for [Github Help](help.github.com):
 1. Start whistle:
 
 ```shell
-$ w2 run
+$ w2 start
 ```
 
 2. Open http://local.whistlejs.com/#rules in browser.
