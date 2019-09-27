@@ -62,7 +62,7 @@ The key point for users is to set whistle rules like `/help.github.com/ whistle.
 
 [ChangeLog](https://github.com/elvinn/whistle.service-worker/blob/master/CHANGELOG.md)
 
-## Thans List
+## Thanks List
 - [Google Workbox](https://github.com/GoogleChrome/workbox)
 - [whistle.swmock](https://github.com/whistle-plugins/whistle.swmock)
 - [avwo](https://github.com/avwo)
